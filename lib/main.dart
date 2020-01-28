@@ -176,7 +176,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: Platform.isIOS
-          ? Contaner()
+          ? Container()
           : FloatingActionButton(
               child: Icon(Icons.add),
               onPressed: () => _startAddNewTransaction(context),
